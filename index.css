@@ -17,16 +17,15 @@
   padding-top: 50px;
 }
 
-.block2 {
-  color: #898a8e;
-  left: 50% !important;
+.circle::before {
+  content: " \25CF";
+  font-size: 200px;
 }
 
-img {
+.imgs {
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  padding: 5px;
-  display: inline-block;
-  background-color: rgb(0, 128, 128);
+  padding: 10px;
+  background-color: rgba(0, 128, 128, 0.8);
 }
