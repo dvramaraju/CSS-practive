@@ -4,8 +4,8 @@
 
 #show_bg {
   background-image: linear-gradient(
-      rgba(0, 128, 128, 1),
-      rgba(0, 128, 128, 0.5)
+      rgba(26, 151, 175, 1),
+      rgba(128, 200, 198, 0.4)
     ),
     url("https://embed.widencdn.net/img/veritas/4qdmeht1ts/1200x630px/doctor-specialists.jpg");
   width: 100%;
@@ -26,6 +26,7 @@
   color: white;
   background-color: rgba(0, 128, 128, 0.8);
 }
+
 img {
   height: 55px;
   width: 55px;
