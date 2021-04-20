@@ -2,7 +2,11 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
-#show_bg {
+body {
+  background-color: #f7f7ff !important;
+}
+
+.show_bg {
   background-image: linear-gradient(
       rgba(26, 151, 175, 1),
       rgba(128, 200, 198, 0.4)
@@ -26,6 +30,7 @@
   color: white;
   background-color: rgba(0, 128, 128, 0.8);
 }
+
 li {
   font-weight: 500;
 }
@@ -43,4 +48,34 @@ img {
 
 .descr {
   font-family: "Roboto Slab", serif;
+}
+
+div > div {
+  cursor: pointer;
+}
+
+/* For smaller screens */
+
+@media (max-width: 600px) {
+  body {
+    background-color: #f7f7ff !important;
+  }
+
+  .wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 30px !important;
+  }
+
+  p {
+    font-size: 20px !important;
+  }
+
+  div > div {
+    margin-top: 10px;
+  }
 }
