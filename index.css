@@ -17,7 +17,7 @@ body {
   background-size: cover;
   color: white;
   padding: 20px;
-  text-align: center;
+  text-align: center !important;
   padding-top: 50px;
 }
 
@@ -67,15 +67,20 @@ div > div {
     justify-content: center;
   }
 
+  #cards {
+    align-items: center !important;
+  }
+
+  div > div > div {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   h1 {
     font-size: 30px !important;
   }
 
   p {
     font-size: 20px !important;
-  }
-
-  div > div {
-    margin-top: 10px;
   }
 }
