@@ -31,15 +31,15 @@ body {
   background-color: rgba(0, 128, 128, 0.8);
 }
 
-li {
-  font-weight: 500;
-}
-
 img {
   height: 50px;
   width: 50px;
   object-fit: contain;
   filter: brightness(0) invert(1);
+}
+
+li {
+  font-weight: 500;
 }
 
 .logo {
